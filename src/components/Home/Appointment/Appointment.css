@@ -1,0 +1,38 @@
+.appointment-text h5{
+    color: #1CC7C1;
+    font-weight: 700;
+}
+.appointment-text h2{
+    font-weight: 700;
+}
+.main{
+    background-image: url(../../../images/appointmentbg.png);   
+    background-position: center;
+    height: 500px; 
+    /* border: 2px solid blue; */
+    opacity: 0.9;
+    /* position: relative; */
+
+}
+.main::before{
+    content:'';
+    position: absolute;
+    height: 500px;
+    width: 75%;
+    display: block;
+    background: rgb(53, 58, 71);
+    z-index: -50;
+    
+}
+.div-main{
+    /* border: 1px solid #000000 */
+    margin-top:100px
+}
+
+.appointment-img{
+   
+    position: relative;
+    /* top: -100px */
+    transform: translateY(-120px)
+}
+
