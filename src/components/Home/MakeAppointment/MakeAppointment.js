@@ -1,9 +1,9 @@
 import React from 'react';
 import picture from '../../../images/picture.png';
-import './Appointment.css'
+import './MakeAppointment.css'
 import background from '../../../images/appointmentbg.png'
 
-const Appointment = () => {
+const MakeAppointment = () => {
     return (
         <div className="d-flex justify-content-center div-main ">
             <div className="w-75 row main">
@@ -23,4 +23,4 @@ const Appointment = () => {
     );
 };
 
-export default Appointment;
+export default MakeAppointment;

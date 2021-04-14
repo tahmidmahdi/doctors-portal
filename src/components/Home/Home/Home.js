@@ -1,8 +1,13 @@
 import React from 'react';
-import Appointment from '../Appointment/Appointment';
+import Blog from '../Blog/Blog';
+import ContractUs from '../ContractUs/ContractUs';
+import Doctors from '../Doctors/Doctors';
+
 import ExceptionalService from '../ExceptionalService/ExceptionalService';
 import Header from '../Header/Header';
+import MakeAppointment from '../MakeAppointment/MakeAppointment';
 import Services from '../Services/Services';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -10,7 +15,11 @@ const Home = () => {
             <Header></Header>
             <Services></Services>
             <ExceptionalService></ExceptionalService>
-            <Appointment></Appointment>
+            <MakeAppointment></MakeAppointment>
+            <Testimonial></Testimonial>
+            <Blog></Blog>
+            <Doctors></Doctors>
+            <ContractUs></ContractUs>
         </div>
     );
 };

@@ -1,0 +1,11 @@
+body{
+    overflow-x: hidden;
+}
+.testimonial{
+    background-image: url(../../../images/quote100.png);
+    background-repeat: no-repeat;
+    background-size: 200px ;
+    background-position: top right;
+       
+}
+    
