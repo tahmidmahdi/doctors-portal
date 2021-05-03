@@ -11,7 +11,7 @@ const containerStyle={
     height:'100%'
 }
 const Dashboard = () => {
-    const [loggedInUser, setLoggedInUser] = useContext(emailContext)
+    const [loggedInUser] = useContext(emailContext)
     console.log('loggedin user', loggedInUser);
     
     const [selectedDate, setSelectedDate] = useState(new Date())
@@ -34,7 +34,7 @@ const Dashboard = () => {
         .then(data => {
             setAppointments(data)
         })
-    },[selectedDate])
+    },[selectedDate, loggedInUser])
    
     return (
         <div className="mt-5">

@@ -6,7 +6,7 @@ import { emailContext } from '../../../App';
 import './Sidebar.css'
 
 const Sidebar = () => {
-    const [loggedInUser, setLoggedInUser] = useContext(emailContext)
+    const [loggedInUser] = useContext(emailContext)
     const [isDoctor, setIsDoctor] = useState(false)
     useEffect(() => {
         fetch(`http://localhost:4000/isDoctor`, {
@@ -16,7 +16,7 @@ const Sidebar = () => {
         })
             .then(res => res.json())
             .then(data => setIsDoctor(data))
-    }, [])
+    }, [loggedInUser])
 
     return (
         <div className="sidebar ">
