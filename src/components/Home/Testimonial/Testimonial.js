@@ -1,5 +1,5 @@
-import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import people1 from '../../../images/people1.png'
 import people2 from '../../../images/people2.png'

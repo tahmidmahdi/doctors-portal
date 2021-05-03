@@ -14,7 +14,7 @@ if (!firebase.apps.length) {
 
 
 const Login = () => {
-    const [loggedInUser, setLoggedInUser] = useContext(emailContext)
+    const [ setLoggedInUser] = useContext(emailContext)
     let history = useHistory();
     let location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } };
@@ -34,6 +34,7 @@ const Login = () => {
                 var user = result.user;
                 setLoggedInUser(user.email);
                 history.replace(from);
+                console.log(token);
                 // ...
             }).catch((error) => {
                 // Handle Errors here.
@@ -44,6 +45,7 @@ const Login = () => {
                 // The firebase.auth.AuthCredential type that was used.
                 var credential = error.credential;
                 // ...
+                console.log(errorCode, errorMessage, email, credential);
             });
     }
     return (

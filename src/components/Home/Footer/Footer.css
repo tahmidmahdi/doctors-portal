@@ -1,0 +1,7 @@
+.footer{
+    background-image: url(../../../images/footer-bg.png);
+    height: 600px;
+    width:100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}

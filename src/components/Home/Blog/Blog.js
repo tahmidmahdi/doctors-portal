@@ -1,7 +1,7 @@
 import React from 'react';
 import './Blog.css'
 import people1 from '../../../images/people1.png'
-import people2 from '../../../images/people2.png'
+// import people2 from '../../../images/people2.png'
 import people3 from '../../../images/people3.png'
 
 const Blog = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import picture from '../../../images/picture.png';
 import './MakeAppointment.css'
-import background from '../../../images/appointmentbg.png'
+// import background from '../../../images/appointmentbg.png'
 
 const MakeAppointment = () => {
     return (
